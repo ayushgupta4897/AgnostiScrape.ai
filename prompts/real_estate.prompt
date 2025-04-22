@@ -1,0 +1,15 @@
+Analyze this real estate listing page screenshot and extract the following information in valid JSON format:
+{
+    "property_type": "Type of property (e.g., House, Apartment, Condo)",
+    "address": "Full address of the property",
+    "price": "Listed price with currency",
+    "bedrooms": "Number of bedrooms (numeric value only)",
+    "bathrooms": "Number of bathrooms (numeric value only)",
+    "square_footage": "Square footage of the property (numeric value only)",
+    "year_built": "Year the property was built (if available, otherwise null)",
+    "description": "Brief description of the property",
+    "amenities": ["List of key amenities"],
+    "agent_name": "Real estate agent name (if available, otherwise null)",
+    "listing_date": "When the property was listed (if available, otherwise null)"
+}
+Make sure to return ONLY valid JSON with no additional text. 

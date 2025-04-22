@@ -1,0 +1,9 @@
+{
+  "error": "JSON parsing error",
+  "raw_response": "ERROR: 'Client' object has no attribute '_api_key'",
+  "_metadata": {
+    "url": "https://www.flipkart.com/search?q=curved%20monitor&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=on&as=off",
+    "timestamp": "2025-04-22T17:43:09.976807",
+    "data_type": "product"
+  }
+}

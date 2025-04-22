@@ -1,0 +1,12 @@
+Analyze this product page screenshot and extract the following information in valid JSON format:
+{
+    "product_name": "Full product name",
+    "price": "Current price with currency",
+    "rating": "Average rating (if available, otherwise null)",
+    "num_reviews": "Number of reviews (if available, otherwise null)",
+    "description": "Short product description",
+    "key_features": ["List of key features"],
+    "availability": "In stock or not",
+    "seller": "Seller name (if available, otherwise null)"
+}
+Make sure to return ONLY valid JSON with no additional text. 

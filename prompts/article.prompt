@@ -1,0 +1,10 @@
+Analyze this article page screenshot and extract the following information in valid JSON format:
+{
+    "title": "Article title",
+    "author": "Author name (if available, otherwise null)",
+    "date_published": "Publication date (if available, otherwise null)",
+    "summary": "A brief summary of the article (2-3 sentences)",
+    "main_topics": ["List of main topics covered"],
+    "source": "Name of the publication or website"
+}
+Make sure to return ONLY valid JSON with no additional text. 

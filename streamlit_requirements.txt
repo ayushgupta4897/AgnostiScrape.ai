@@ -1,0 +1,8 @@
+streamlit>=1.30.0
+pandas>=2.0.0
+python-dotenv>=1.0.0
+playwright>=1.30.0
+google-generativeai>=0.3.0
+pillow>=9.0.0
+# If installing from PyPI (once published)
+# agnostiscrape>=0.1.0 
